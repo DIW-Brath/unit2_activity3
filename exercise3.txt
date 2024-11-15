@@ -1,0 +1,28 @@
+1. For <p id="mission">
+List all rules that apply to its color.
+What is the final color, and why?
+El color final es el darkorange, porque la etiqueta que le dá ese color es un id, el cual tiene más prioridad.
+
+
+2. For <p id="team">
+List all rules that apply to its color.
+What is the final color, and why?
+El color que coje es el darkblue porque está puesto inline en el elemento.
+
+
+3. For <p id="experience">
+List all rules that apply to its color.
+What is the final color, and why?
+El color que coje es green porque es un color que se le da al padre a través del id, el cual tiene prioridad.
+
+
+4. For <p id="services-intro">
+List all rules that apply to its color.
+What is the final color, and why?
+El color final es el blue porque tiene 2 colores de distintas clases que tienen la misma prioridad, pero la clase intro que tiene el color blue viene primero.
+
+
+5. For <p id="offer">
+List all rules that apply to its color.
+What is the final color, and why?
+El color que coge es el color green de su id #offer, porque aunque no tiene la mayor prioridad normalmente, el atributo !important le da mayor prioridad contra otros elementos que no sean !important también.
